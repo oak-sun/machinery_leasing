@@ -1,0 +1,7 @@
+CREATE TABLE lessors (
+    id VARCHAR(36) NOT NULL PRIMARY KEY,
+    name VARCHAR(150) NOT NULL,
+    email VARCHAR(255) NOT NULL,
+    status VARCHAR(15) NOT NULL,
+    joinDate DATE NOT NULL
+);
